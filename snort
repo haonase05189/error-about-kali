@@ -17,3 +17,7 @@ Destination Port	             : any
 
 Execute snort
 # snort -c /etc/snort/snort.conf -l /var/log/snort/
+
+If you have a different interface for the network connection, then use -dev -i option. In this example my network interface is eth0.
+
+# snort -dev -i eth0 -c /etc/snort/snort.conf -l /var/log/snort/
