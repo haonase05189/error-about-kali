@@ -1,0 +1,19 @@
+Following is the structure of the alert:
+
+<Rule Actions> <Protocol> <Source IP Address> <Source Port> <Direction Operator> <Destination IP Address> <Destination > (rule options)
+
+(rule options)
+Structure	Example
+Rule Actions	                 : alert
+Protocol 	                     : icmp
+Source IP Address              :	any
+Source Port	                   : any
+Direction Operator             :	->
+Destination IP Address	       : any
+Destination Port	             : any
+(rule options)	               : (msg:”ICMP Packet”; sid:477; rev:3;)
+
+
+
+Execute snort
+# snort -c /etc/snort/snort.conf -l /var/log/snort/
