@@ -22,3 +22,6 @@ deb http://old.kali.org/kali moto main non-free contrib
 
 
 =>sudo apt-get update
+
+Check if your can install the package:
+sudo apt-get install checkinstall
