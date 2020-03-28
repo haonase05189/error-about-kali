@@ -21,3 +21,7 @@ Execute snort
 If you have a different interface for the network connection, then use -dev -i option. In this example my network interface is eth0.
 
 # snort -dev -i eth0 -c /etc/snort/snort.conf -l /var/log/snort/
+***************************************
+
+create rule :
+sudo gedit /etc/snort/rules/ms17-010.rules
