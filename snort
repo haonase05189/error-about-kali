@@ -24,4 +24,6 @@ If you have a different interface for the network connection, then use -dev -i o
 ***************************************
 
 create rule :
-sudo gedit /etc/snort/rules/ms17-010.rules
+
+ leafpad /etc/snort/rules/ms17010.rules
+
